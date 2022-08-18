@@ -11,14 +11,18 @@
     gap: 1rem;
 }
 .main-section__buttons-btn {
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
+    border: 1px solid rgba(16, 39, 112, 1);
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 0.5rem 1.4rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .main-section__buttons-btn:hover {
-    background-color: #f5f5f5;
+    border: 1px solid rgba(16, 39, 112, 1);
+    background-color: rgba(16, 39, 112, 1);
+    color: #fafafa;
 }
 .main-section__courses{
     margin: 2rem 5rem 2rem 5rem;

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <section className='app__footer'>
             <div className='app__footer-section'>
-                copyright &copy; 2022
+                Copyright &copy; 2022
             </div>
         </section>
     )
