@@ -1,0 +1,28 @@
+.app__main-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.main-section__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.main-section__buttons-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.main-section__buttons-btn:hover {
+    background-color: #f5f5f5;
+}
+.main-section__courses{
+    margin: 2rem 5rem 2rem 5rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(14.8571rem, 1fr));
+    grid-gap: 1rem;
+}

@@ -1,0 +1,18 @@
+.app__header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.2857rem;
+    font-size: 1.1428rem;
+    background:red;
+} 
+
+.header__logo {
+    margin-left: 5rem;
+}
+
+.header__links {
+    margin-right: 5rem;
+}
